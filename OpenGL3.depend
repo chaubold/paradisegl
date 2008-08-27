@@ -1,0 +1,372 @@
+# depslib dependency file v1.0
+1219605376 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/main.cpp
+	<GL/glew.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<GL/gl.h>
+	<GL/glu.h>
+	<sstream>
+	"MyProgram.h"
+	"SfmlApp.h"
+
+1209228331 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Input.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowListener.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/OpenGL.hpp>
+
+1204543061 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Randomizer.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1209833072 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Config.hpp
+	<climits>
+
+1200743399 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Clock.hpp
+	<SFML/Config.hpp>
+
+1200743399 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Lock.hpp
+	<SFML/System/NonCopyable.hpp>
+
+1200743399 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/NonCopyable.hpp
+	<SFML/Config.hpp>
+
+1200743399 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Mutex.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Win32/Mutex.hpp>
+	<SFML/System/Unix/Mutex.hpp>
+
+1200743399 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Win32/Mutex.hpp
+	<SFML/System/NonCopyable.hpp>
+	<windows.h>
+
+1187703888 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Unix/Mutex.hpp
+	<SFML/System/NonCopyable.hpp>
+	<pthread.h>
+
+1200743399 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Randomizer.hpp
+	<SFML/Config.hpp>
+
+1200743399 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Sleep.hpp
+	<SFML/Config.hpp>
+
+1200743399 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Thread.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Win32/Thread.hpp>
+	<SFML/System/Unix/Thread.hpp>
+
+1205753167 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Win32/Thread.hpp
+	<SFML/System/NonCopyable.hpp>
+	<windows.h>
+
+1187703888 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Unix/Thread.hpp
+	<SFML/System/NonCopyable.hpp>
+	<pthread.h>
+
+1211475633 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1208949366 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Vector2.inl
+
+1208949367 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1208949367 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/System/Vector3.inl
+
+1208620569 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window/Event.hpp
+	<SFML/Config.hpp>
+
+1202034133 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window/Input.hpp
+	<SFML/Config.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/WindowListener.hpp>
+
+1200743399 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window/WindowListener.hpp
+	<SFML/Config.hpp>
+
+1200743398 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window/VideoMode.hpp
+	<SFML/Config.hpp>
+	<cstdlib>
+
+1209644887 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window/Window.hpp
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Input.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowListener.hpp>
+	<SFML/Window/WindowSettings.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<queue>
+	<string>
+
+1206017503 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window/WindowHandle.hpp
+	<SFML/Config.hpp>
+
+1211392039 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window/WindowSettings.hpp
+
+1205498454 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window/WindowStyle.hpp
+
+1209228282 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Window/OpenGL.hpp
+	<GL/gl.h>
+	<GL/glu.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+
+1202462172 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PostFX.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/String.hpp>
+	<SFML/Graphics/View.hpp>
+
+1213193829 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Color.hpp
+	<SFML/Config.hpp>
+
+1211019866 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Font.hpp
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<map>
+	<string>
+
+1210859873 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Image.hpp
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/VideoResource.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1200743401 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/VideoResource.hpp
+	<SFML/Config.hpp>
+
+1205589272 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Rect.hpp
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1203763100 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Rect.inl
+
+1211190539 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/PostFX.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/VideoResource.hpp>
+	<istream>
+	<map>
+	<string>
+
+1209203539 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Drawable.hpp
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+
+1210863172 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Matrix3.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Vector2.hpp>
+	<math.h>
+	<SFML/Graphics/Matrix3.inl>
+
+1210869235 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Matrix3.inl
+
+1209646194 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/RenderWindow.hpp
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1209203157 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/View.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+	<SFML/System/Vector2.hpp>
+
+1208878105 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Shape.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/System/Vector2.hpp>
+	<vector>
+
+1205665477 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/Sprite.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1204542846 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/SFML-1.3/include/SFML/Graphics/String.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+
+1219482981 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/myApp.h
+	<GL/glew.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<GL/gl.h>
+	<GL/glu.h>
+	<sstream>
+	<iostream>
+	"VBO.h"
+	"ObjModel.h"
+	<kazmath/mat4.h>
+
+1219604083 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/myApp.cpp
+	"myApp.h"
+	<iomanip>
+
+1207083847 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/GLee.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"GLee.h"
+	<Carbon/Carbon.h>
+
+1163534358 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/GLee.h
+	<windows.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<stddef.h>
+
+1219395588 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/VBO.h
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sstream>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	<kazmath/vec2.h>
+	<kazmath/vec3.h>
+
+1219699756 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/VBO.cpp
+	"VBO.h"
+
+1219760648 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/ObjModel.cpp
+	"ObjModel.h"
+
+1219760661 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/ObjModel.h
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<map>
+	<vector>
+	<list>
+	<kazmath/vec2.h>
+	<kazmath/vec3.h>
+	"VBO.h"
+	"Shader.h"
+
+1206293983 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/Controller.cpp
+	"Controller.h"
+
+1219612476 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/Controller.h
+	<iostream>
+
+1206290280 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/MyApp.cpp
+	"MyApp.h"
+
+1219608753 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/MyApp.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	"Controller.h"
+
+1219761912 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/MyProgram.cpp
+	"MyProgram.h"
+
+1219788790 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/MyProgram.h
+	<GL/glew.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iostream>
+	<iomanip>
+	<kazmath/mat4.h>
+	"MyApp.h"
+	"ViewSimpleArcBall.h"
+	"ViewController.h"
+	"ObjModel.h"
+	"Shader.h"
+	"FBO.h"
+
+1219612752 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/ViewSimpleArcBall.h
+	<GL/glu.h>
+	<kazmath/vec3.h>
+	<kazmath/mat4.h>
+	<math.h>
+	<iomanip>
+
+1219613196 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/ViewController.h
+	<SFML/Graphics.hpp>
+	"Controller.h"
+	"ViewSimpleArcBall.h"
+
+1219700978 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/SfmlApp.cpp
+	"SfmlApp.h"
+
+1219606734 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/SfmlApp.h
+	<GL/glew.h>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<GL/gl.h>
+	<GL/glu.h>
+	<sstream>
+	"MyApp.h"
+
+1219762061 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/Shader.cpp
+	"Shader.h"
+
+1219760922 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/Shader.h
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string>
+	<sstream>
+	<fstream>
+	<iostream>
+	<stdio.h>
+	<kazmath/vec3.h>
+	<kazmath/mat4.h>
+	<GL/glew.h>
+
+1219697558 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/ViewController.cpp
+	"ViewController.h"
+	<iostream>
+
+1219660817 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/ViewSimpleArcBall.cpp
+	"ViewSimpleArcBall.h"
+	<iostream>
+
+1219787884 source:/home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/FBO.cpp
+	"FBO.h"
+	<iostream>
+
+1219787887 /home/dumbo/Programmieren/CasteCodingSVN/svn/trunk/3DCasteSMFL/OpenGL3/FBO.h
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+	<GL/gl.h>
+	<GL/glu.h>
+

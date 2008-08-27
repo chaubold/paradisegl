@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpenGL3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OpenGL3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OpenGL3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../SFML-1.3/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-window" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-system" />
+			<Add library="Kazmath" />
+			<Add library="GLEW" />
+			<Add directory="../SFML-1.3/lib" />
+		</Linker>
+		<Unit filename="Controller.cpp" />
+		<Unit filename="Controller.h" />
+		<Unit filename="FBO.cpp" />
+		<Unit filename="FBO.h" />
+		<Unit filename="MyApp.cpp" />
+		<Unit filename="MyProgram.cpp" />
+		<Unit filename="MyProgram.h" />
+		<Unit filename="ObjModel.cpp" />
+		<Unit filename="ObjModel.h" />
+		<Unit filename="SfmlApp.cpp" />
+		<Unit filename="SfmlApp.h" />
+		<Unit filename="Shader.cpp" />
+		<Unit filename="Shader.h" />
+		<Unit filename="VBO.cpp" />
+		<Unit filename="VBO.h" />
+		<Unit filename="ViewController.cpp" />
+		<Unit filename="ViewController.h" />
+		<Unit filename="ViewSimpleArcBall.cpp" />
+		<Unit filename="ViewSimpleArcBall.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
