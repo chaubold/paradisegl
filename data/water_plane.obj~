@@ -2,7 +2,7 @@
 # Exported by Misfit Model 3D 1.3.6
 # Wed Aug 27 09:49:53 2008
 
-mtllib water_plane.mtl
+mtllib data/water_plane.mtl
 
 # 4 Vertices
 v -464.912718 -0.01058 -476.411163

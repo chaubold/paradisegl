@@ -7,8 +7,8 @@ newmtl normalmap
 	Kd 0.8 0.8 0.8
 	Ks 0.0 0.0 0.0
 	Ka 0.2 0.2 0.2
-	map_Kd data/normalmap.tga
-	
+	map_Kd data/normalmap.tga 
+		
 newmtl dudvmap
 	Ns 0
 	d 1
@@ -16,5 +16,5 @@ newmtl dudvmap
 	Kd 0.8 0.8 0.8
 	Ks 0.0 0.0 0.0
 	Ka 0.2 0.2 0.2
-	map_Kd data/dudvmap.tga
-
+	map_Kd data/dudvmap.tga 
+	

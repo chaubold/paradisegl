@@ -28,6 +28,7 @@ class MyProgram : public sfmlFramework::MyApp
 		///rotation of the model
 		float m_rotY;
 		float m_waterHeight;
+		float m_time;
 
 		///Model to load and display
 		ObjModel* m_terrain;
@@ -39,6 +40,8 @@ class MyProgram : public sfmlFramework::MyApp
         Shader* m_waterShader;
 
         FBO* m_reflectionFbo;
+        FBO* m_refractionFbo;
+        FBO* m_depthFbo;
 	public:
 		MyProgram();
 		~MyProgram();

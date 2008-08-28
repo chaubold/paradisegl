@@ -15,19 +15,19 @@ private:
     GLenum m_internalFormat;
     int m_width, m_height;
 
-    GLuint m_depthBuffer;
+    GLuint m_depthBuffer, m_depthID;
 
 public:
     /**
         Setup the FBO, create a texture render target with the given properties
     */
-    FBO(GLenum internalFormat,GLenum textureFormat,int width, int height);
+    FBO(GLenum internalFormat,GLenum textureFormat,int width, int height, bool useDepthTexture=false);
 
     ///Destructor
     ~FBO();
 
     ///method to initialize the FBO, called from constructor
-    void initialize(GLenum internalFormat,GLenum textureFormat,int width, int height);
+    void initialize(GLenum internalFormat,GLenum textureFormat,int width, int height, bool useDepthTexture);
 
 
     ///is FBO supported by this card?
@@ -58,6 +58,7 @@ public:
 
     ///after having rendered to the FBO, we can use the texture directly with this method (binds to current texture unit)
     void useTextureImage(bool mipmap=false);
+    void useDepthTexture(bool mipmap=false);
 };
 
 

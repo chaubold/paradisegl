@@ -5,28 +5,28 @@
 		<Cursor position="518" topLine="0" />
 	</File>
 	<File name="FBO.cpp" open="1" top="0" tabpos="8">
-		<Cursor position="3075" topLine="0" />
+		<Cursor position="1845" topLine="26" />
 	</File>
 	<File name="FBO.h" open="1" top="0" tabpos="9">
-		<Cursor position="1750" topLine="19" />
+		<Cursor position="372" topLine="23" />
 	</File>
 	<File name="MyApp.cpp" open="1" top="0" tabpos="6">
 		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="MyProgram.cpp" open="1" top="1" tabpos="1">
-		<Cursor position="314" topLine="0" />
+		<Cursor position="4123" topLine="96" />
 	</File>
 	<File name="MyProgram.h" open="1" top="0" tabpos="2">
-		<Cursor position="652" topLine="8" />
+		<Cursor position="568" topLine="13" />
 	</File>
 	<File name="ObjModel.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="705" topLine="0" />
+		<Cursor position="201" topLine="39" />
 	</File>
 	<File name="ObjModel.h" open="1" top="0" tabpos="5">
 		<Cursor position="1061" topLine="22" />
 	</File>
 	<File name="SfmlApp.cpp" open="1" top="0" tabpos="7">
-		<Cursor position="1096" topLine="0" />
+		<Cursor position="2029" topLine="48" />
 	</File>
 	<File name="Shader.cpp" open="1" top="0" tabpos="10">
 		<Cursor position="4020" topLine="121" />

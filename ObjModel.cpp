@@ -13,7 +13,7 @@ ObjModel::~ObjModel(){
 }
 
 
-Material* ObjModel::getMaterial(const std::string& name)
+ObjModel::Material* ObjModel::getMaterial(const std::string& name)
 {
     if( mc_materials.find(name) != mc_materials.end())
     {

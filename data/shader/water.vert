@@ -38,7 +38,7 @@ waterTex0.y = dot(temp, binormal);
 waterTex0.z = dot(temp, norm);
 waterTex0.w = 0.0;
 
-mpos = mat_projection * gl_Vertex;
+mpos = mat_projection * mpos;
 
 vec4 t1 = vec4(0.0, -time, 0.0,0.0);
 vec4 t2 = vec4(0.0, -time2, 0.0,0.0);
@@ -48,5 +48,5 @@ waterTex2 = gl_MultiTexCoord0 + t2;
 
 waterTex3 = mpos;
 
-gl_Position = ftransform();
+gl_Position = mpos;
 }

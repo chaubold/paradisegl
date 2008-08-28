@@ -10,7 +10,7 @@ uniform sampler2D water_reflection;
 uniform sampler2D water_refraction;
 uniform sampler2D dudvmap;
 uniform sampler2D water_depthmap;
-uniform vec4 waterColor, waterDepth;
+uniform vec4 waterColor;
 
 varying vec4 waterTex0; //lightpos
 varying vec4 waterTex1; //moving texcoords
